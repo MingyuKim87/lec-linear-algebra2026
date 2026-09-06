@@ -1,0 +1,55 @@
+name: Build and publish course site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Finish an active deployment before publishing the latest pending revision.
+concurrency:
+  group: course-gh-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+
+      - name: Build the Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Check the public build
+        run: |
+          test -s _site/index.html
+          test -s _site/assets/css/course.css
+          test -s _site/assets/js/course.js
+          test -s _site/assets/docs/syllabus.pdf
+          test -s _site/assets/docs/LinearAlgebra_2026_Textbook_Page_Mapping_Guide.pdf
+          test ! -e _site/UPLOAD_GUIDE.md
+          test ! -e _site/.github
+
+      # This action creates gh-pages on the first run and adds .nojekyll.
+      # Only the built site is published; main remains the editable source.
+      - name: Publish the built site to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_site
+          enable_jekyll: false
+          allow_empty_commit: ${{ github.event_name == 'workflow_dispatch' }}
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_message: Publish course site
