@@ -1,0 +1,18 @@
+title: "Linear Algebra | Fall 2026"
+description: "Textbook, course overview, class format, textbook pages, schedule, and assessment for Linear Algebra, Fall 2026."
+lang: en
+# Use the course layout in _layouts/course.html.
+markdown: kramdown
+kramdown:
+  input: Kramdown
+permalink: pretty
+
+# GitHub Pages 프로젝트 사이트
+url: "https://mgyukim87.github.io"
+baseurl: "/lec-linear-algebra2026"
+repository: "mgyukim87/lec-linear-algebra2026"
+
+exclude:
+  - .github
+  - UPLOAD_GUIDE.md
+  - README.md
