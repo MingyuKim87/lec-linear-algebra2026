@@ -73,19 +73,21 @@ tbody tr:hover { background: #edf4fa; }
 .assessment-table td:nth-child(2) { color: var(--blue); font-weight: 750; font-size: 1.0625rem; }
 .schedule-table { border-top: 0; }
 .schedule-table thead th { position: sticky; top: var(--nav-height); z-index: 5; box-shadow: 0 1px 0 var(--blue); }
-.schedule-table th:nth-child(1) { width: 6%; }
-.schedule-table th:nth-child(2) { width: 16%; }
-.schedule-table th:nth-child(3) { width: 8%; }
-.schedule-table th:nth-child(4) { width: 27%; }
-.schedule-table th:nth-child(5) { width: 29%; }
-.schedule-table th:nth-child(6) { width: 14%; }
+.schedule-table th:nth-child(1) { width: 7%; }
+.schedule-table th:nth-child(2) { width: 12%; }
+.schedule-table th:nth-child(3) { width: 7%; }
+.schedule-table th:nth-child(4) { width: 19%; }
+.schedule-table th:nth-child(5) { width: 21%; }
+.schedule-table th:nth-child(6) { width: 23%; }
+.schedule-table th:nth-child(7) { width: 11%; }
 .schedule-table th, .schedule-table td { padding: 1rem .7rem; }
 .schedule-table td:first-child { color: var(--muted); }
 .schedule-table td:nth-child(2) { font-weight: 750; white-space: nowrap; }
 .schedule-table td:nth-child(3) { color: var(--muted); font-size: .875rem; }
 .schedule-table td:nth-child(4) { font-weight: 650; line-height: 1.65; }
-.schedule-table td:nth-child(5) { line-height: 1.75; }
+.schedule-table td:nth-child(5), .schedule-table td:nth-child(6) { line-height: 1.75; }
 .schedule-table td:nth-child(5) strong { color: var(--blue); font-weight: 650; }
+.schedule-table td:nth-child(6) strong { color: var(--ink, #1b2733); font-weight: 700; font-variant-numeric: tabular-nums; }
 .schedule-table small { display: block; margin-top: .35rem; padding-top: .4rem; border-top: 1px dashed var(--line); }
 .schedule-table td br:has(+ small) { display: none; }
 .schedule-table tbody tr { background: #fff; }
@@ -118,9 +120,12 @@ tbody tr:hover { background: #edf4fa; }
   .schedule-table td:nth-child(4) { grid-column: 1 / -1; grid-row: 3; font-size: 1.125rem; margin: .75rem 0; }
   .schedule-table td:nth-child(5) { grid-column: 1 / -1; grid-row: 5; padding-top: .85rem; border-top: 1px solid var(--line); }
   .schedule-table td:nth-child(5)::before { content: "Textbook pages (printed)"; display: block; font-size: .875rem; font-weight: 650; color: var(--muted); margin-bottom: .4rem; }
-  .schedule-table td:nth-child(6) { grid-column: 1 / -1; grid-row: 4; }
+  .schedule-table td:nth-child(6) { grid-column: 1 / -1; grid-row: 6; padding-top: .85rem; }
+  .schedule-table td:nth-child(6)::before { content: "Exercises"; display: block; font-size: .875rem; font-weight: 650; color: var(--muted); margin-bottom: .4rem; }
   .schedule-table td:nth-child(6):empty { display: none; }
-  .schedule-table td:nth-child(6):not(:empty) { margin-bottom: .5rem; }
+  .schedule-table td:nth-child(7) { grid-column: 1 / -1; grid-row: 4; }
+  .schedule-table td:nth-child(7):empty { display: none; }
+  .schedule-table td:nth-child(7):not(:empty) { margin-bottom: .5rem; }
   .schedule-table tr:has(.badge.exam) { border-top-color: #952c27; background: #fff8f5 !important; }
   .schedule-table tr:has(.badge.exam) td, .schedule-table tr:target td { background: transparent; }
   .schedule-table tr:target { outline: 3px solid #b7791f; outline-offset: 2px; }
