@@ -4,7 +4,7 @@ title: "Linear Algebra | Fall 2026"
 permalink: /
 lang: en
 description: "Textbook, course overview, class format, session-by-session textbook pages and exercises, and assessment for Linear Algebra, Fall 2026."
-last_modified_at: "2026-09-18"
+last_modified_at: "2026-09-28"
 ---
 
 <!--
@@ -94,11 +94,11 @@ Each section range runs from the start of that section to the page immediately b
 | 3 | Sep. 15, 2026 | 5 | Rank | §4.9 **pp. 276–290** | §4.9 **#1–9, #11–14, #19–20, #28–29, #37**<br><small>p. 287–288 · rank and nullity, maximum rank, the (a)–(g) classification table, four fundamental spaces</small> |  |
 | 3 | Sep. 17, 2026 | 6 | Solving Linear Systems | §1.2 **pp. 11–24** + §1.6 **pp. 62–68** | §1.6 **#1–18**<br><small>p. 67–68 · x = A⁻¹b, several right-hand sides, consistency conditions, Equivalence Theorem · proofs #21–24</small> |  |
 | 4 | Sep. 22, 2026 | 7 | Basic Applications of Linear Systems I | §1.10 **pp. 98–109** | §1.10 **#1–4, #13–18**<br><small>p. 108–110 · network flow, traffic patterns, polynomial interpolation</small> |  |
-| 4 | Sep. 24, 2026 | 8 | Basic Applications of Linear Systems II | §1.10 **pp. 98–109** | §1.10 **#5–12**<br><small>p. 108–109 · Kirchhoff's laws, circuit currents, balancing chemical equations</small> | <span class="badge due">HW1 due</span> |
+| 4 | Sep. 24, 2026 | 8 | Basic Applications of Linear Systems II | §1.10 **pp. 98–109** | §1.10 **#5–12**<br><small>p. 108–109 · Kirchhoff's laws, circuit currents, balancing chemical equations</small> |  |
 | 5 | Sep. 29, 2026 | 9 | Matrix Basics | §1.3 **pp. 25–39** | §1.3 **#1–8, #11–14**<br><small>p. 37–38 · size and entries, equality, addition, row–column rule, Ax, matrix form, transpose</small> |  |
 | 5 | Oct. 1, 2026 | 10 | Block Matrices | §1.3 **pp. 25–39** | §1.3 **#9–10, #17–21**<br><small>p. 38 · partitioning, extracting one row or column of AB, column–row expansion</small> |  |
 | 6 | Oct. 6, 2026 | 11 | Elementary Matrices | §1.5 **pp. 53–61** | §1.5 **#1–8, #23–26**<br><small>p. 60–61 · identifying elementary matrices, inverse row operations, EA, products of elementary matrices</small> |  |
-| 6 | Oct. 8, 2026 | 12 | Inverses | §1.4 **pp. 40–52** + §1.5 **pp. 53–61** | §1.4 **#1–8, #25–28, #37–38** · §1.5 **#9–22**<br><small>p. 51–52, 60–61 · identity matrix, 2×2 formula and det, inversion algorithm, detecting singular matrices · proofs §1.4 #51–58</small> |  |
+| 6 | Oct. 8, 2026 | 12 | Inverses | §1.4 **pp. 40–52** + §1.5 **pp. 53–61** | §1.4 **#1–8, #25–28, #37–38** · §1.5 **#9–22**<br><small>p. 51–52, 60–61 · identity matrix, 2×2 formula and det, inversion algorithm, detecting singular matrices · proofs §1.4 #51–58</small> | <span class="badge due">HW1 due</span> |
 | 7 | Oct. 13, 2026 | 13 | LU Factorization and Its Applications | §9.1 **pp. 509–518** | §9.1 **#1–6**<br><small>p. 518 · triangular systems, forward and back substitution, constructing L and U</small> |  |
 | 7 | Oct. 15, 2026 | 14 | Applications of LU Factorization | §9.1 **pp. 509–518** | §9.1 **#7–12**<br><small>p. 518 · reusing a factorization, A⁻¹ from L and U, LDU and PLU · #1, #3, #5 are worked in class</small> |  |
 | 8 | Oct. 20, 2026 | 15 | Midterm Exam | Review: §1.2, §1.10, §9.1<br><small>Selected review pages: 16–17, 99–100, 518</small> | **Pre-exam review**<br><small>§1.2 #1–24 · §1.3 #1–8 · §1.5 #1–18 · §1.6 #1–18 · §1.10 #1–16 · §9.1 #1–8</small> | <span class="badge due">HW2 due</span> <span class="badge exam">Midterm Exam</span> |
