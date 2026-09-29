@@ -119,7 +119,7 @@ tbody tr:hover { background: #edf4fa; }
   .schedule-table td:nth-child(3)::before { content: "Session "; }
   .schedule-table td:nth-child(4) { grid-column: 1 / -1; grid-row: 3; font-size: 1.125rem; margin: .75rem 0; }
   .schedule-table td:nth-child(5) { grid-column: 1 / -1; grid-row: 5; padding-top: .85rem; border-top: 1px solid var(--line); }
-  .schedule-table td:nth-child(5)::before { content: "Textbook pages (printed)"; display: block; font-size: .875rem; font-weight: 650; color: var(--muted); margin-bottom: .4rem; }
+  .schedule-table td:nth-child(5)::before { content: "Reading pages (printed)"; display: block; font-size: .875rem; font-weight: 650; color: var(--muted); margin-bottom: .4rem; }
   .schedule-table td:nth-child(6) { grid-column: 1 / -1; grid-row: 6; padding-top: .85rem; }
   .schedule-table td:nth-child(6)::before { content: "Exercises"; display: block; font-size: .875rem; font-weight: 650; color: var(--muted); margin-bottom: .4rem; }
   .schedule-table td:nth-child(6):empty { display: none; }
