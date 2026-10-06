@@ -4,7 +4,7 @@ title: "Linear Algebra | Fall 2026"
 permalink: /
 lang: en
 description: "Textbook, course overview, class format, session-by-session textbook pages and exercises, and assessment for Linear Algebra, Fall 2026."
-last_modified_at: "2026-09-29"
+last_modified_at: "2026-10-06"
 ---
 
 <!--
@@ -135,7 +135,7 @@ The schedule and pace may be adjusted to reflect academic arrangements or class 
 | Midterm Exam | 25% | Covers Weeks 1–7; held in the first session of Week 8 |
 | Final Exam | 25% | Covers Weeks 9–15; held in Week 16, exact date to be announced |
 | Quizzes | 20% | Session-based checks of key concepts; scores are aggregated |
-| Homework | 20% | HW1–HW4 combined; 6 questions each, 24 questions in total |
+| Homework | 20% | HW1–HW4 combined; 20 questions each, 80 questions in total |
 | Attendance | 10% | Based on attendance records |
 | **Total** | **100%** | Relative grading |
 
